@@ -1003,28 +1003,28 @@
 				)
 			)
 		)
-		(symbol "easyeda2kicad:TS-1002S-04526C"
+		(symbol "easyeda2kicad:TS-1101-C-W"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
 			(property "Reference" "SW"
-				(at 0 7.62 0)
+				(at 0 5.08 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
 				)
 			)
-			(property "Value" "TS-1002S-04526C"
+			(property "Value" "TS-1101-C-W"
+				(at 0 -5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "easyeda2kicad:SW-SMD_L6.0-W3.3-LS8.0"
 				(at 0 -7.62 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" "easyeda2kicad:SW-SMD_4P-L6.0-W6.0-P4.50-LS9.0-2"
-				(at 0 -10.16 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1032,8 +1032,8 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" "https://lcsc.com/product-detail/Tactile-Switches_XUNPU-TS-1002S-04526C_C455109.html"
-				(at 0 -12.7 0)
+			(property "Datasheet" ""
+				(at 0 0 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1050,8 +1050,8 @@
 					(hide yes)
 				)
 			)
-			(property "LCSC Part" "C455109"
-				(at 0 -15.24 0)
+			(property "LCSC Part" "C318938"
+				(at 0 -10.16 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1059,10 +1059,10 @@
 					(hide yes)
 				)
 			)
-			(symbol "TS-1002S-04526C_0_1"
+			(symbol "TS-1101-C-W_0_1"
 				(polyline
 					(pts
-						(xy -2.54 -2.54) (xy 2.54 -2.54)
+						(xy -2.54 1.02) (xy 2.54 1.02)
 					)
 					(stroke
 						(width 0)
@@ -1074,67 +1074,7 @@
 				)
 				(polyline
 					(pts
-						(xy -2.54 2.54) (xy 2.54 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -0.76 1.27) (xy -0.76 -1.02)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 -2.54) (xy 0 -0.76)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 1.52) (xy 0 0.76)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 2.54) (xy 0 1.52)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -0.76 0.25) (xy -1.02 0.25) (xy -1.02 0) (xy -0.76 0)
+						(xy -0.51 1.02) (xy -0.51 1.27) (xy 0.51 1.27) (xy 0.51 1.02)
 					)
 					(stroke
 						(width 0)
@@ -1145,7 +1085,7 @@
 					)
 				)
 				(pin unspecified line
-					(at -7.62 2.54 0)
+					(at -7.62 0 0)
 					(length 5.08)
 					(name "1"
 						(effects
@@ -1163,7 +1103,7 @@
 					)
 				)
 				(pin unspecified line
-					(at 7.62 2.54 180)
+					(at 7.62 0 180)
 					(length 5.08)
 					(name "2"
 						(effects
@@ -1173,42 +1113,6 @@
 						)
 					)
 					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at -7.62 -2.54 0)
-					(length 5.08)
-					(name "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at 7.62 -2.54 180)
-					(length 5.08)
-					(name "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1535,12 +1439,6 @@
 		(uuid "0f9751f7-5d64-4f90-978d-2fd043437a30")
 	)
 	(junction
-		(at 120.65 66.04)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "158adcb3-1eca-471f-8dc7-735a91565c3a")
-	)
-	(junction
 		(at 132.08 30.48)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1577,6 +1475,12 @@
 		(uuid "e13daa3c-f686-4fe4-b2bc-424107d7e189")
 	)
 	(junction
+		(at 120.65 66.04)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e291119e-d8b6-42bf-9b2f-5ebd397d6846")
+	)
+	(junction
 		(at 137.16 50.8)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1601,6 +1505,16 @@
 			(type default)
 		)
 		(uuid "12b18708-8665-47c5-badf-2f6ddcfd08bb")
+	)
+	(wire
+		(pts
+			(xy 120.65 81.28) (xy 120.65 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1956d623-446a-4724-89fd-d735defc2e5d")
 	)
 	(wire
 		(pts
@@ -1671,6 +1585,16 @@
 			(type default)
 		)
 		(uuid "5d1e3181-b44b-4719-a901-37a666251918")
+	)
+	(wire
+		(pts
+			(xy 125.73 81.28) (xy 120.65 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "662b9cd9-3e97-4dc8-b600-b0e8fa75ff90")
 	)
 	(wire
 		(pts
@@ -2418,6 +2342,85 @@
 			(project "powerbank_pcb"
 				(path "/332d7591-23c8-46ee-88ac-d4cbe8afaa76"
 					(reference "#PWR013")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "easyeda2kicad:TS-1101-C-W")
+		(at 125.73 73.66 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "224b1047-1c69-4e7a-bde4-24beaf3f1815")
+		(property "Reference" "SW1"
+			(at 127 72.3899 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "TS-1101-C-W"
+			(at 127 74.9299 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "easyeda2kicad:SW-SMD_L6.0-W3.3-LS8.0"
+			(at 133.35 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 125.73 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 125.73 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C318938"
+			(at 135.89 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "35557976-67ae-4334-8ddf-a80a4210b474")
+		)
+		(pin "1"
+			(uuid "bdb3331a-9aee-4414-bec7-cb3e01ed01b6")
+		)
+		(instances
+			(project ""
+				(path "/332d7591-23c8-46ee-88ac-d4cbe8afaa76"
+					(reference "SW1")
 					(unit 1)
 				)
 			)
@@ -3678,91 +3681,6 @@
 			(project "powerbank_pcb"
 				(path "/332d7591-23c8-46ee-88ac-d4cbe8afaa76"
 					(reference "#PWR05")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "easyeda2kicad:TS-1002S-04526C")
-		(at 123.19 73.66 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "af0acf51-7af0-44bc-bcf6-386e3cd67412")
-		(property "Reference" "SW1"
-			(at 127 72.3899 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "TS-1002S-04526C"
-			(at 127 74.9299 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Button_Switch_SMD:Nidec_Copal_CAS-120A"
-			(at 133.35 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://lcsc.com/product-detail/Tactile-Switches_XUNPU-TS-1002S-04526C_C455109.html"
-			(at 135.89 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 123.19 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC Part" "C455109"
-			(at 138.43 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "171071f6-98dc-4dcf-8817-3ff8bc987c54")
-		)
-		(pin "4"
-			(uuid "f9f78a9f-cc25-4789-a8df-bc5acddb7292")
-		)
-		(pin "1"
-			(uuid "5a64c502-463e-424a-a6af-3c2f0262a90e")
-		)
-		(pin "3"
-			(uuid "0ff818a3-2b34-423d-a0da-d7448fe6c4d1")
-		)
-		(instances
-			(project ""
-				(path "/332d7591-23c8-46ee-88ac-d4cbe8afaa76"
-					(reference "SW1")
 					(unit 1)
 				)
 			)
